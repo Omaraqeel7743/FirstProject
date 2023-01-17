@@ -1,0 +1,154 @@
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        height: 2000px;
+
+    }
+    ul{
+        background-color: rgb(62, 58, 58);
+        text-align: center;
+    }
+    ul li{
+        display: inline-block;
+        margin: 20px;
+    }
+    ul li:hover{
+        background-color: red;
+    }
+    ul li a{
+        color: white;
+        text-decoration: none;
+    }
+    /* start hero section */
+    .hero{
+        height: 200px;
+        background-image: url('../images/hero.jpeg');
+        background-position: center center;
+    }
+    .about_us{
+        text-align: center;
+        width: 80%; /*يكون العرض 80% ا */
+        margin: auto;
+        margin-top: 50px;
+    }
+    .about_us h1{
+        margin-bottom: 30px;
+        color: red;
+        font-size: 35px;
+    }
+    .all-box{
+        display: flex;
+    }
+    .box{
+        width: 30%;
+        height: 200px;
+        padding: 10px;
+        margin: auto;
+        border-radius: 15px;
+        cursor: pointer;
+        background-color: rgb(3, 104, 176);
+    }
+    .box:hover{
+        background-color: rgb(111, 114, 114);
+        box-shadow: 10px 10px 5px rgb(13, 77, 146);
+    }
+    i{
+        background-color: rgb(61, 52, 52);
+        width: 40px;
+        height: 40px;
+        color: white;
+        font-size: 25px;
+        border-radius: 50%;
+        /* align-items: center; */
+
+    }
+    .box h3{
+        font-size: 20px;
+        color: white;
+        margin-top: 10px;
+    }
+    .box p{
+
+    }
+
+    /* start content */
+.content{
+    text-align: center;
+    margin-top: 50px;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+.content h1{
+    margin-bottom: 30px;
+        color: red;
+        font-size: 35px;
+}
+.content p{
+    margin-bottom: 20px;
+}
+.content img{
+    width: 300px;
+    height: 200px;
+}
+/* End content */
+
+/* start contact-us */
+.contact-us{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* text-align: center; */
+}
+.contact-us .contact-forrm{
+    width: 700px;
+    background-color: #eee;
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+    border-radius: 20px;
+}
+.input-form input{
+    width: 400px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+/* .input-form input:focus{
+    border: 1px solid rgb(165, 165, 165);
+    outline: none;
+} */
+textarea{
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.btn-send{
+    background-color: rgb(35, 222, 251);
+    color: white;
+    width: 200px;
+    height: 50px;
+    border: 1px solid white;
+    font: 20px;
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.btn-send:hover{
+    background-color: rgb(21, 79, 87);
+}
+/* End contact-us */
+
+/* Start footer  */
+.footer{
+    background-color: rgb(146, 146, 146);
+    height: 100px;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
+/* End footer  */
